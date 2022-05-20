@@ -1,0 +1,10 @@
+.main{
+   color: blue; 
+   border: 2px solid red;
+}
+
+.head{
+    color: chartreuse;
+    background-color: bisque;
+    border: 3px solid gray;
+}

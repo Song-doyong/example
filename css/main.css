@@ -1,0 +1,124 @@
+.font{
+    text-align: center;
+    background-color: crimson; 
+    color: aliceblue;
+    padding: 20px; 
+    margin-right: 10px
+}
+.image {
+    width: 300px; 
+    height: 400px; 
+    display: block; 
+    margin-right: auto; 
+    margin-left: auto;
+    float: left
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid #E1E1E1;
+    display: grid;
+    grid-template-columns: 850px 90px 90px 90px 90px 90px 90px;
+}
+
+.left {
+    width: 30%;
+    height: 400px;
+    background-color: peachpuff;
+    float: left;
+}
+
+.main {
+    width: 1440px;
+    height: 3109px;
+}
+
+.right {
+    width: 70%;
+    height: 400px;
+    background-color: dodgerblue;
+    float: left;
+}
+
+.bottom {
+    width: 100%;
+    height: 200px;
+    background-color: crimson;
+    clear: both;
+}
+
+.web_main {
+    width: 800px;
+    height : 1200px;
+}
+
+.img_btn {
+    background-color: white;
+    padding-left: 130px;
+    padding-right: 130px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: none;
+}
+
+.reg_info {
+    left: 651px;
+    margin-top: 21px;
+    margin-bottom: 21px;
+    line-height: 38px;
+    display: grid;
+    
+}
+
+.dgn_btn {
+    border-radius: 6px;
+    border : 0px none;
+    background-color: white;
+    color: black;
+    width: 83px;
+    height: 38px;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.search {
+    left: 774px;
+    margin-top: 21px;
+    margin-bottom: 21px;
+    line-height: 38px;
+    display: grid;   
+}
+
+.sub_btn {
+    border : 0px none;
+    background-color: #E1E1E1;
+    color: white;
+    width: 295px;
+    height: 36px;
+    padding: 0px;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+    position: absolute;
+    font-size: 10px;
+}
+
+.sub_bar {
+    padding-left: 130px;
+    width: 100%;
+    height: 36px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.main_txt {
+    padding-left: 130px;
+    padding-right: 130px;
+    padding-top: 16px;
+    width: 100%;
+    height: 2442px;
+    font-size: 14px;
+    line-height: 20px;
+}

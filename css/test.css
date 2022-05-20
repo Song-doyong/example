@@ -1,0 +1,26 @@
+
+.header {
+    text-align: center;
+    font-size: 30px;
+    border-bottom: solid 2px gray;
+}
+
+li {
+    font-size: 25px;
+}
+
+
+.menu_left {
+    border-right: solid 2px gray;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 15% 75%;
+}
+
+
+
+.menu_right {
+    padding-left: 20px;
+}
